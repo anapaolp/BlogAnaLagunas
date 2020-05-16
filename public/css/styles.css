@@ -1,0 +1,93 @@
+/*plantilla*/
+	body {
+	  display: flex;
+	  min-height: 100vh;
+	  flex-direction: column;
+	}
+
+	main {
+	  flex: 1 0 auto;
+	  background-color: #f1d1d1;
+	}
+
+	nav, footer{
+		background-color: #7d5a5a;
+		font-family: 'Rufina', serif;
+	}
+	.nav-link{
+		color: #faf2f2 !important;
+		font-family: 'Rufina', serif;
+		font-size: 24px;
+	}
+	.nav-link:hover{
+		text-decoration: underline !important;
+	}
+	nav .active{
+		font-weight: bold;
+	}
+	.navbar-brand img{
+		width: 20%;
+		height: auto;
+	}
+	.dropleft a{
+		font-family: 'Oxygen', sans-serif;
+	}
+	.dropleft a:hover{
+		background-color: black;
+		color: white;
+	}
+	
+/*home*/
+	.bienvenidos{
+		background-color: #f1d1d1 !important;
+		text-align: center;
+		padding-top: 3% !important;
+		padding-bottom: 1% !important;
+		border-bottom: solid black !important;
+		border: none !important;
+	}
+
+	.tareas{
+		border-bottom: solid black;
+		border-top: solid black;
+		font-family: 'Rufina', serif;
+	}
+	.tareas .tarea{
+		font-family: 'Oxygen', sans-serif;
+	}
+	.tareas .card-body{
+		font-size: 1.2rem;
+	}
+	.tareas .amarillo, .main_sesion .amarillo, .amarillo{
+		background-color: #f3e1e1 !important;
+	}
+	.tareas .morado, .main_sesion .morado, .morado{
+		background-color: #584153 !important;
+	}
+
+	.jumbotron{
+		background-color: white !important;
+	}
+
+/*registro*/
+	.haztucuenta{
+		border-bottom: solid black !important;
+	}
+	.main_sesion .form{
+		width: 95%;
+		padding: 3%;
+	}
+	.main_reg .form{
+		width: 95%;
+		padding: 3%;
+	}
+	form{
+		font-family: 'Oxygen', sans-serif;
+	}
+	form .btn{
+		background-color: white;
+	}
+	form .btn:hover{
+		background-color: black;
+		color: white;
+	}
